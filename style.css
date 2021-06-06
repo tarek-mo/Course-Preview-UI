@@ -368,6 +368,9 @@ nav input {
   margin-left: -30px;
 }
 @media (min-width: 1295px) {
+  nav ul {
+    justify-content: flex-start;
+  }
   nav i {
     display: none !important;
   }
