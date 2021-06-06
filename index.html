@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>UX Course</title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <ul>
+        <div class="img-container d-flex align-items-center">
+          <img src="./images/Google-logo.png" alt="logo" />
+        </div>
+        <div class="lis-container">
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Instructors</a></li>
+          <div class="input-container">
+            <input type="text" placeholder="What do you want to learn" />
+            <img src="./images/search-icon.png" alt="Search Icon" />
+          </div>
+
+          <li><a href="#">For Students</a></li>
+          <li><a href="#">For Entreprice</a></li>
+        </div>
+        <i class="fas fa-bars open"></i>
+        <i class="far fa-window-close close"></i>
+      </ul>
+    </nav>
+
+    <!-- Nav Mobile -->
+    <div class="menu-mobile">
+      <li><a href="#" class="current">Home</a></li>
+      <li><a href="#">How it works</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Instructors</a></li>
+      <div class="input-container">
+        <input type="text" placeholder="What do you want to learn" />
+        <img
+          class="search-icon"
+          src="./images/search-icon.png"
+          alt="Search Icon"
+        />
+      </div>
+
+      <li><a href="#">For Students</a></li>
+      <li><a href="#">For Entreprice</a></li>
+    </div>
+
+    <section class="banner">
+      <div class="container">
+        <p>Browse > Computer Science > Design and Product</p>
+        <div class="d-flex justify-content-between flex-wrap">
+          <div class="content-container">
+            <h1>UX Design Professional Certificate</h1>
+            <div class="stars d-flex align-items-center">
+              <img src="./images/star.svg" alt="star" /><img
+                src="./images/star.svg"
+                alt="star"
+              /><img src="./images/star.svg" alt="star" /><img
+                src="./images/star.svg"
+                alt="star"
+              /><img src="./images/star.svg" alt="star" /><span>4.8</span>
+            </div>
+          </div>
+
+          <div class="content-container content-container2">
+            <p>Offerted by:</p>
+            <img src="./images/Google.png" alt="Google" />
+            <button>Enroll Now</button>
+            <p>106,373 already enrolled</p>
+          </div>
+        </div>
+
+        <p>
+          This is your path to a career in UX design. In this program, you’ll
+          learn in-demand skills that will have you job-ready in less than 6
+          months. No degree or experience required.
+        </p>
+      </div>
+    </section>
+
+    <section class="certificat">
+      <div class="container">
+        <div class="line"></div>
+        <div class="row">
+          <div class="item1 col-lg-6 col-md-6 col-sm-12">
+            <span>ENTRY LEVEL </span>
+            <h2>UX Design Certificate</h2>
+            <p>
+              This fully online program provides the skills you need for an
+              entry-level job in UX design, with no prior experience required.
+            </p>
+          </div>
+          <div class="item2 col-lg-6 col-md-6 col-sm-12">
+            <h3>You’ll learn about:</h3>
+            <ul>
+              <li>Developing personas, user stories, and user journey maps</li>
+              <li>Conducting usability studies</li>
+              <li>Creating wireframes and prototypes</li>
+              <li>Testing and iterating on designs</li>
+              <li>Building a professional portfolio</li>
+            </ul>
+            <button>Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORIES SECTION -->
+    <section class="stories">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="item1 img-container">
+              <img src="./images/person.png" alt="Person" />
+              <img
+                class="play-btn"
+                src="./images/play-btn.svg"
+                alt="Play Btn"
+              />
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="item2">
+              <h3>CERTIFICATE SUCCESS STORIES</h3>
+              <p class="quote">
+                “The quality of teaching and the videos is very high. Lots of
+                interesting assignments and articles. “
+              </p>
+              <p>
+                After completing the IT Support Certificate, Chelsea now works
+                as a data center technician for Google in Clarksville,
+                Tennessee.
+              </p>
+              <div class="people-imgs">
+                <img src="./images/person1.png" alt="Person1" /><img
+                  src="./images/person2.png"
+                  alt="Person2"
+                /><img src="./images/person3.png" alt="person3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JS -->
+    <script src="./script.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
